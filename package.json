@@ -4,7 +4,7 @@
   "description": "Made By Moon",
   "main": "Main.js",
   "engines": {
-    "node": "20.x",
+    "node": ""node": ">=22.12.0",",
     "npm": ">=10.0.0 <13.0.0"
   },
   "scripts": {
