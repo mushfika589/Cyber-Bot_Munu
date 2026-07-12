@@ -1,5 +1,5 @@
 {
-  "Author": "SHAHADAT SAHU",
+  "Author": "Mushfika Moon",
   "version": "2.0.0",
   "language": "en",
   "DeveloperMode": false,
@@ -11,14 +11,14 @@
   "EMAIL": "your email",
   "PASSWORD": "your password",
   "OTPKEY": "",
-  "BOTNAME": "─꯭─⃝‌‌𝐒𝐡𝐚𝐡𝐚𝐝𝐚𝐭 𝐂𝐡𝐚𝐭 𝐁𝐨𝐭",
+  "BOTNAME": "─꯭─⃝‌‌  Cyber Bot_Munu",
   "PREFIX": "/",
-  "reactUnsend": ["😡", "🤧", "😤", "😠"],
+  "reactUnsend": ["!unsend",  "😠"],
 
   "ADMINBOT": [
-    "100001039692046",
-    "61586663640809",
-    "100044713412032"
+    "61559447912325",
+    "61578348665752",
+    """
   ],
   "NDH": ["100044713412032"],
   "adminOnly": false,
@@ -30,7 +30,24 @@
     "sqlite": { "storage": "data.sqlite" }
   },
 
-  "commandDisabled": [],
+  "commandDisabled": "[!help — সব command দেখাবে
+!wlc on/off — Welcome message চালু/বন্ধ
+!rules — Group rules
+!admin — Admin list
+!ping — Bot online কিনা
+!time — বর্তমান সময়
+!info — Bot information
+!pp — যার message reply করবে, তার profile picture দেখাবে (যদি bot library ও Facebook API এটা support করে)
+!uid — Reply করা user-এর Facebook ID দেখাবে
+!pair — Group থেকে random দুইজনকে pair করবে
+!echo <text> — Bot একই message repeat করবে
+!say <text> — Bot message পাঠাবে
+!tagall — সবাইকে mention করবে
+!ban — Member ban (admin only)
+!kick — Member remove (admin only)
+!warn — Warning দেবে
+!mute — নির্দিষ্ট সময়ের জন্য mute (যদি bot support করে)]",
+ !,
   "eventDisabled": [],
 
   "System": {
